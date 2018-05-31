@@ -8,9 +8,37 @@ html {
   display: flex;
   justify-content: center;
 }
-.competence{
+#comp1{
   left:450px;
   position:relative;
+  display:none;
+  color: white;
+}
+
+#comp2{
+  left:450px;
+  position:relative;
+  display:none;
+  color: white;
+}
+#comp3{
+  left:450px;
+  position:relative;
+  display:none;
+  color: white;
+}
+#comp4{
+  left:450px;
+  position:relative;
+  display:none;
+  color: white;
+}
+
+#comp5{
+  left:450px;
+  position:relative;
+  display:none;
+  color: white;
 }
 .home{
   position: relative;
