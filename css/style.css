@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+
 html {
   background-image: url(../img/bg.jpg);
   height: 100%;
@@ -8,45 +16,55 @@ html {
   display: flex;
   justify-content: center;
 }
+
+
 #comp1{
   left:450px;
   position:relative;
-  display:none;
-  color: white;
+  display: none;
 }
 
 #comp2{
   left:450px;
   position:relative;
-  display:none;
-  color: white;
+  display: none;
 }
+
 #comp3{
   left:450px;
   position:relative;
-  display:none;
-  color: white;
+  display: none;
 }
+
 #comp4{
   left:450px;
   position:relative;
-  display:none;
-  color: white;
+
+  display: none;
 }
 
 #comp5{
   left:450px;
   position:relative;
-  display:none;
-  color: white;
+  display: none;
 }
+
+.Experience{
+  position: relative;
+  color: white;
+  bottom: 290px;
+  left:450px;
+  display:none;
+  width:600px;
+  height:230px;
+}
+
 .home{
   position: relative;
   color: white;
   bottom: 290px;
   left:450px;
   display:none;
-  border: 1px solid black;
   width:600px;
   height:230px;
 }

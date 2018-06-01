@@ -31,15 +31,25 @@ $(document).ready(function(){
       $(".compe").removeClass("active");
       $(".expe").addClass("active");
       $("#comp1").animate({left:'1300px'},2000);
-      $("#comp2").animate({left:'-1300px'},2000);
-      $("#comp1").hide(2000);
-      $("#comp2").hide(2000);
-      $("#comp3").animate({left:'1300px'},4000);
-      $("#comp4").animate({left:'-1300px'},4000);
-      $
+      $("#comp2").animate({left:'-1300px'},2200);
+      $("#comp3").animate({left:'1300px'},2400);
+      $("#comp4").animate({left:'-1300px'},2600);
+      $("#comp5").animate({left:'1300px'},2600);
+      $("#comp1").hide(1000);
+      $("#comp2").hide(1000);
+      $("#comp3").hide(1000);
+      $("#comp4").hide(1000);
+      $("#comp5").hide(1000);
+      $(".Experience").animate({top:'-300px'},4000);
+      $(".Experience").show(3000);
+    });
 
-
+    $(".form").click(function(){
+      $(".expe").removeClass("active");
+      $(".form").addClass("active");
 
     });
+
+
 
   });
